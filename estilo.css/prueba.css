@@ -1,0 +1,275 @@
+.iconodepag {
+    height: 100px;
+}
+
+body {
+    background-color: rgb(135, 206, 250);
+    font-family: sans-serif;
+}
+
+header img {
+    float: left;
+    width: 330px;
+    height: 220px;
+}
+
+.logoo {
+    height: 190px;
+    margin-left: 5px;
+    margin-top: 4px;
+
+}
+
+main {
+    margin-bottom: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.InicioPrimero {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(187, 187, 187);
+    text-align: center;
+}
+
+.acceso {
+    text-align: center;
+}
+
+li {
+    color: lightblue;
+}
+
+.equipoDeTrabajo {
+    color: lightslategrey;
+    text-align: center;
+}
+
+.fotosEquipo {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "sureda mañas"
+        "sintia gabriela";
+
+}
+
+.lolo {
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.santo {
+    position: relative;
+    left: 32%;
+    bottom: 40px;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#acceso {
+    background-color: rgb(135, 206, 250);
+    margin: 10px;
+    text-align: left;
+
+}
+
+.protocolos {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+#acceso ul {
+    list-style: none;
+}
+
+#acceso ul li {
+    display: inline-block;
+
+}
+
+#acceso ul a {
+    color: white;
+    display: block;
+    padding: 18px;
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+#acceso ul a:hover {
+    background-color: rgb(187, 187, 187);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tomas {
+
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(187, 187, 187);
+    text-align: right;
+    margin-top: 10px;
+    height: 180px;
+    padding: 14px;
+}
+
+
+.tabla1 {
+    background-color: palegoldenrod;
+}
+
+.lista1 {
+    color: navy;
+}
+
+.lista2 {
+    color: olive;
+}
+
+
+.mensajes {
+    color: lightslategrey;
+    text-align: center;
+}
+
+
+.ubica {
+    text-align: center;
+    height: 40px;
+    height: 40px;
+}
+
+.mapa {
+    width: 940px;
+    height: 490px;
+    padding: 5px;
+}
+
+.foto {
+    width: 940px;
+    height: 490px;
+    padding: 5px;
+}
+
+@media only screen and (min-width:768px) {
+    header img {
+        width: 250px;
+        height: 150px;
+    }
+
+    .InicioPrimero {
+        font-size: 45px;
+        height: 150px;
+    }
+}
+
+
+@media only screen and (min-width:1024px) {
+    header img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .InicioPrimero {
+        font-size: 45px;
+        height: 150px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    header img {
+        width: 310px;
+        height: 210px;
+    }
+
+    .InicioPrimero {
+        font-size: 45px;
+        height: 200px;
+    }
+}
+
+
+
+.centrado {
+    text-align: center;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#carouselExampleControls {
+    margin: 20px;
+
+    margin-top: 220px;
+
+}
+
+/******** cuerpo medico *******/
+#cuerpo {
+    background-color: #dbe5e6;
+    padding: 30px 0px;
+}
+
+#cardMedio {
+    margin-bottom: 140px;
+}
+
+.card-body {
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0, 1);
+}
+
+.card {
+    margin: 20px 10px;
+}
+
+.card-body a {
+    color: #0c7f90;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: auto;
+    font-weight: 600;
+}
+
+.card-body a:hover {
+    color: #63a6b0;
+    text-decoration: none;
+}
+
+.img-img-top {
+    height: 350px;
+    width: 350px;
+    margin: 110px;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
